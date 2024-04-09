@@ -1049,13 +1049,20 @@ bottom: 2vw;
  @media (max-width:600px) {
     #page1
     {
-        height: 100vh;
+        height: 50vh;
         width: 100vw;
         background-color:#dadada;
         position: relative;
     
     
     }
+    #page1 video
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+}
     #loader h3{
         color: white;
         font-size: 5vw;

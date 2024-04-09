@@ -237,7 +237,11 @@ nav h3
     width: 30vw;
     position: relative;
    
-   
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   overflow: hidden;
    
 
 }
@@ -247,6 +251,10 @@ nav h3
     height: 100%;
     width: 30vw;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
     
 }
 
@@ -278,6 +286,7 @@ nav h3
     height: 100%;
     width: 100%;
     object-position: center;
+
         
 
 }
@@ -344,7 +353,7 @@ nav h3
     width: 30vw;
     position:relative;
     
-   
+  overflow: hidden;
 
 }
 
@@ -1267,6 +1276,7 @@ bottom: 2vw;
     position: absolute;
     left: -100%;
 }
+
 #page3-elements #el1
 
 {
@@ -1274,10 +1284,13 @@ bottom: 2vw;
     width: 60vw;
     position: relative;
     margin-top: 10vw;
-   
-   
-
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
+
 #page3-elements #el2
 
 {

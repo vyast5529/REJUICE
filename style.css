@@ -1049,7 +1049,7 @@ bottom: 2vw;
  @media (max-width:600px) {
     #page1
     {
-        height: 50vh;
+        height: 70vh;
         width: 100vw;
         background-color:#dadada;
         position: relative;
